@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milo y Sasha</title>
+    <link rel="icon" href="image.ico">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+ <header>
+   <h1><b>Presentando a Milo y a Sasha</b></h1><hr>
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li> 
+            <li><a href="preferencias.html">Preferencias</a></li> 
+            <li><a href="audiovisuales.html">Audiovisuales</a></li>  
+            <li><a href="contacto.html">Contacto</a></li> 
+        </ul>
+    </nav>
+ </header>
+  <h2 style="margin: 15px;">Preferencias de Milo</h2><hr>
+  <div class="container">
+       <table>
+           <colgroup>
+            <col style="background-color: rgb(115, 124, 124);">
+            <col>
+            <col>
+            <col>
+            <col>
+           </colgroup>
+           <th></th>
+           <th>Prefiere:</th>
+           <th>No le gusta:</th>
+          <tr>
+             <td>Alimento</td>
+             <td>Carne</td>
+             <td>Pescado</td>
+          </tr>
+           
+          <tr>
+             <td>Pseos</td>
+             <td>Caminando</td>
+             <td>Auto</td>
+          </tr>
+          
+          <tr>
+             <td>Dormir</td>
+             <td>Cama</td>
+             <td>En el piso</td>
+          </tr>
+           
+          <tr>
+             <td>Agua</td>
+             <td>Fria y totalmente limpia</td>
+             <td>natural</td>
+          </tr>
+           
+         </table>
+  </div>
+
+ <h3 style="margin: 15px;">Preferencias de Sasha</h3><hr>
+   <div class="container">
+      <table>
+           <colgroup>
+               <col style="background-color: #5c5454;">
+               <col>
+               <col>
+               <col>
+           </colgroup>
+           <th></th>
+           <th>Prefiere</th>
+           <th>No le gusta</th>
+          
+           <tr>
+               <td>Alimentos</td>
+               <td>Carne</td>
+               <td>Nada,todo le gusta</td>
+           </tr>
+           <tr>
+               <td>Juguetes</td>
+               <td>De tela</td>
+               <td>Nada,todo le gusta</td>
+           </tr>
+
+           <tr>
+               <td>Actividad</td>
+               <td>dormir</td>
+               <td>bañarse</td>
+           </tr>
+
+           <tr>
+               <td>tiempo</td>
+               <td>lluvia</td>
+               <td>calor</td>
+           </tr>
+       </table>
+   </div>
+ 
+
+
+
+
+  <footer class="footer">
+     <p>Derechos reservados &copy;2023</p>
+  </footer>
+
+    
+</body>
+</html>
